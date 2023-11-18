@@ -33,6 +33,10 @@ sudo apt install libgdm-dev
 sudo apt install libegl-dev
 sudo apt install libgles2-mesa-dev
 ```
+## Other Considerations for Pi Zero 2W
+Even though the Pi Zero2W is 64-bit, it has limited memory compared to the Pi3 and Pi4. Also, as we are using the Pi like an appliance, it will not usually get safe shutdown treatment.  Here is a link to a great article about using 64-bit on RaspberryPi 2W.  See the part about changing the swap strategy:
+
+https://qengineering.eu/install-64-os-on-raspberry-pi-zero-2.html
 
 ## Install JavaFX
 Unless you posses a commercial license, you will always need to use early access (EA) releases of *JavaFX*.  The Direct Rendering features used for kiosk mode applications are licensed by *Gluon* but are available for developers.
